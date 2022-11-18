@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hr{
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#homeSection{
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.earnRate{
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(214, 5, 5);
+}
+
+#homeSection p{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.firstSection{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5rem 0;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.firstSection p{
+    margin-bottom:15px;
+    font-size: 20px;
+}
+
+.sectionSection{
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sectionSection p{
+    margin:20px 0;
+    font-size: 20px;
+}
+
+.sectionSection button{
+    padding: 20px 180px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(238, 22, 22);
+    color: #fff;
+    font-size: 20px;
+}
+
+.thirdSection{
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.footer{
+    text-align: center;
+    font-size: 18px;
+}
