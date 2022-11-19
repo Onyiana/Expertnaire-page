@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html, body{
+    overflow-x: hidden;
     line-height: 1.5;
 }
 
@@ -97,6 +101,7 @@ hr{
 @media screen and (max-width:992px) {
     .earnRate{
         font-size: 35px;
+        font-weight: 700;
     }
 
     #homeSection p{
@@ -135,7 +140,8 @@ hr{
     }
     
     .footer{
-        font-size: 23px;
+        padding: 0 3rem;
+        font-size: 15px;
     }
 }
 
@@ -212,5 +218,60 @@ hr{
     .footer{
         padding: 0 3rem;
         font-size: 18px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .earnRate{
+        font-size: 20px;
+    }
+
+    #homeSection {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    #homeSection p{
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .firstSection{
+        width: 100%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    
+    .firstSection p{
+        font-size: 18px;
+    }
+
+    .sectionSection{
+        width: 100%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .sectionSection p{
+       font-size: 15px;
+       font-weight: 700;
+    }
+
+    .sectionSection button{
+        padding: 25px 30px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .thirdSection{
+        width: 100%;
+        font-size: 15px;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .footer{
+        padding: 0 3rem;
+        font-size: 15px;
     }
 }
