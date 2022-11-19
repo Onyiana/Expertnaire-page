@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 a{
@@ -136,5 +136,81 @@ hr{
     
     .footer{
         font-size: 23px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .earnRate{
+        font-size: 30px;
+    }
+
+    #homeSection p{
+        width: 70%;
+        font-size: 23px;
+    }
+
+    .firstSection{
+        width: 90%;
+    }
+    
+    .firstSection p{
+        font-size: 20px;
+    }
+
+    .sectionSection{
+        width: 90%;
+    }
+    
+    .sectionSection p{
+        font-size: 22px;
+    }
+
+    .sectionSection button{
+        padding: 25px 80px;
+        font-size: 20px;
+    }
+
+    .thirdSection{
+        width: 80%;
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .earnRate{
+        font-size: 26px;
+    }
+
+    #homeSection p{
+        width: 90%;
+        font-size: 22px;
+    }
+
+    .firstSection{
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .sectionSection{
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .sectionSection p{
+        font-size: 20px;
+    }
+
+    .sectionSection button{
+        padding: 25px 50px;
+    }
+
+    .thirdSection{
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .footer{
+        padding: 0 3rem;
+        font-size: 18px;
     }
 }
